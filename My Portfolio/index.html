@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidutt's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Josefin+Sans:ital,wght@0,100;1,100&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <span class="name">Saidutt's</span> Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#services">Skills</a> </li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main" id="main">
+        <div class="left-section">
+            <p>Hi my name is <span class="purple">Saidutt</span> <br>and i am a passionate <span id="element"></span>
+            </p>
+            <div class="links" id="links">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="new.avif" alt="">
+        </div>
+    </div>
+
+    <hr>
+    <!-------about--------->
+    <div class="about-section" id="about-section">
+        <div class="container">
+            <div class="column1">
+                <h1 class="sub-title">About Me</h1>
+            </div>
+            <div class="column2">
+                <div class="info">
+                    <p>I am a enthusiactic person with a zeal to learn new things. <br>Ongoing I am pursuing BE (TE) in
+                        Computer Science <br>I have Good hands on Front-End Development and Java </p>
+                </div>
+                <div class="tab-title">
+                    <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    <div class="tab-links" onclick="opentab('Projects')">Projects</div>
+                </div>
+                <div class="info-table">
+                    <div class="tab-contents active-tab " id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Front-End Developer</li>
+                            <li><span>Java Developer</span><br>Node.js <br>Express.js</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Smt. Kashibai Navale College of <br>Engineering, Pune - 8.9
+                                CGPA</li>
+                            <li><span>2019-2021</span><br>Residential Juinor College, <br>Ahmednagar - 92.83%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Projects">
+                        <ul>
+                            <li><span>Amazon CLone Website</span><br>HTMl <br> CSS</li>
+                            <li><span>Portfolio Website</span><br>HTML <br>CSS <br>Javascript</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Skills section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web developers are also responsible for creating the front-end of a website through the use of
+                        HTML, CSS and JavaScript, which creates the layout and style that the user sees and interacts
+                        with when using the site.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> UI handles the look of a digital product, UX handles how all of the UI elements work together to
+                        create a seamless user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Mobile application development is the process of making software for smartphones, tablets and
+                        digital assistants.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Conatct me-->
+
+    <div class="contact" id="contact">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+            <div class="contact-left">
+
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="www.linkedin.com/in/saidutt-bhagat-9910b2230"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a class="btn btn2" href="./Saidutt's Resume.pdf" download="">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Saidutt Reserved</p>
+        </div>
+    </div>
+
+
+    <!--/**TYPED JS**/-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer...', 'Front-End Web Developer...'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links')
+        var tabcontents = document.getElementsByClassName('tab-contents')
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementsByClassName(tabname).classList.add("active-tab")
+
+
+        }
+
+    </script>
+
+</html>
